@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brother Infotech - Modern Technology Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="images/logo.png" alt="Brother Infotech Logo" class="logo">
+                </div>
+                <div class="brand-section">
+                    <h1 class="site-title">Brother Infotech</h1>
+                    <p class="tagline">Empowering Digital Innovation</p>
+                </div>
+                <nav class="navigation">
+                    <ul class="nav-list">
+                        <li><button class="nav-btn active" data-section="home">Home</button></li>
+                        <li><button class="nav-btn" data-section="about">About</button></li>
+                        <li><button class="nav-btn" data-section="skills">Skills</button></li>
+                        <li><button class="nav-btn" data-section="generator">Generator</button></li>
+                        <li><button class="nav-btn" data-section="projects">Projects</button></li>
+                        <li><button class="nav-btn" data-section="contact">Contact</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Home Section -->
+            <section id="home" class="section active">
+                <div class="home-content">
+                    <h2 class="section-title">Welcome to Brother Infotech</h2>
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h3>Your Partner in Digital Excellence</h3>
+                            <p>We specialize in creating cutting-edge web applications, mobile apps, and AI-powered systems that help businesses thrive in the digital age. Our team combines technical expertise with creative problem-solving to deliver exceptional results.</p>
+                            <div class="hero-features">
+                                <div class="feature">
+                                    <span class="feature-icon">🚀</span>
+                                    <span>Full Stack Development</span>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon">📱</span>
+                                    <span>Mobile App Creation</span>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon">🤖</span>
+                                    <span>AI-Powered Solutions</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-image">
+                            <div class="hero-placeholder" id="hero-cta">
+                                <div class="hero-text-content">
+                                    <h4>Innovation Starts Here</h4>
+                                    <p>Transform your ideas into reality</p>
+                                    <button class="cta-button">Explore Our Work</button>
+                                </div>
+                                <div class="floating-elements">
+                                    <span class="floating-icon">🚀</span>
+                                    <span class="floating-icon">💡</span>
+                                    <span class="floating-icon">⚡</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Us Section -->
+            <section id="about" class="section">
+                <h2 class="section-title">About Us</h2>
+                <div class="about-content">
+                    <p class="about-text">
+                        Brother Infotech is a forward-thinking technology company dedicated to delivering innovative digital solutions. 
+                        We specialize in creating cutting-edge web applications, mobile apps, and AI-powered systems that help businesses 
+                        thrive in the digital age. Our team combines technical expertise with creative problem-solving to deliver 
+                        exceptional results for our clients.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>30+</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h4>5+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <h2 class="section-title">Our Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Full Stack Development</h3>
+                        <ul class="skill-list">
+                            <li>HTML5, CSS3, JavaScript</li>
+                            <li>React, Angular, Vue.js</li>
+                            <li>Node.js, Python, PHP</li>
+                            <li>RESTful APIs & Microservices</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Mobile App Development</h3>
+                        <ul class="skill-list">
+                            <li>React Native</li>
+                            <li>Flutter</li>
+                            <li>iOS & Android Native</li>
+                            <li>Progressive Web Apps</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Database & Cloud</h3>
+                        <ul class="skill-list">
+                            <li>MongoDB, MySQL, PostgreSQL</li>
+                            <li>AWS, Azure, Google Cloud</li>
+                            <li>Firebase, Supabase</li>
+                            <li>Docker & Kubernetes</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Prompt Generator Section -->
+            <section id="generator" class="section">
+                <h2 class="section-title">Project Prompt Generator</h2>
+                <div class="generator-container">
+                    <form id="prompt-form" class="prompt-form">
+                        <div class="form-group">
+                            <label for="project-type">Project Type</label>
+                            <select id="project-type" name="project-type" required>
+                                <option value="">Select project type</option>
+                                <option value="Web Application">Web Application</option>
+                                <option value="Mobile App">Mobile App</option>
+                                <option value="E-commerce Platform">E-commerce Platform</option>
+                                <option value="Dashboard">Dashboard</option>
+                                <option value="API Service">API Service</option>
+                                <option value="Portfolio Website">Portfolio Website</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="tech-stack">Tech Stack</label>
+                            <input type="text" id="tech-stack" name="tech-stack" 
+                                   placeholder="e.g., React, Node.js, MongoDB" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="special-feature">Special Feature</label>
+                            <input type="text" id="special-feature" name="special-feature" 
+                                   placeholder="e.g., AI chatbot, real-time notifications" required>
+                        </div>
+                        <button type="submit" class="generate-btn">Generate Prompt</button>
+                    </form>
+                    <div id="prompt-result" class="prompt-result"></div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Smart Task Manager</h3>
+                            <p>A comprehensive task management application with AI-powered productivity insights, 
+                               real-time collaboration, and intelligent scheduling features.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/brotherinfotech/task-manager" target="_blank" class="project-link">
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://task-manager-demo.com" target="_blank" class="project-link">
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>E-commerce Platform</h3>
+                            <p>A modern e-commerce solution with advanced inventory management, 
+                               secure payment processing, and personalized shopping experiences.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/brotherinfotech/ecommerce" target="_blank" class="project-link">
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://ecommerce-demo.com" target="_blank" class="project-link">
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>📧 Email</h3>
+                            <p><a href="mailto:info@brotherinfotech.com">info@brotherinfotech.com</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>📱 Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>📍 Location</h3>
+                            <p>San Francisco, CA</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>⏰ Business Hours</h3>
+                            <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="contact-name">Name</label>
+                                <input type="text" id="contact-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email">Email</label>
+                                <input type="email" id="contact-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-message">Message</label>
+                                <textarea id="contact-message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="contact-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>Contact: <a href="mailto:info@brotherinfotech.com">info@brotherinfotech.com</a></p>
+                    <p>&copy; 2024 Brother Infotech. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
